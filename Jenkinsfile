@@ -1,7 +1,18 @@
 pipeline {
    agent any
-  stages {
-    stage('Robot') {
+        stages {
+            stage(repo){
+                steps{
+               git 'https://github.com/manish-rajpal/Label-f'
+                 }
+            }
+     
+        stage ('Build') {
+              steps {
+                     bat "mvn compile"
+                }
+            }
+        stage('Robot') {
             steps {
                 bat 'robot --variable BROWSER:headlesschrome -d Results Tests'
             }
