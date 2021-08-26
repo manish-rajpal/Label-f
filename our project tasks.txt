@@ -1,0 +1,16 @@
+Group 2	
+AI Model Training & API Deploy		Prod
+
+
+Task					Group	Version			Misc
+Set up account from link		All	Staging & Prod		https://app.labelf.ai/register/it-hogskolan
+Log in					All	Staging & Prod	
+Upload Dataset E-Bike		Group 2	Prod	Ted will distribute dataset
+Set up Labels E-Bike		Group 2	Prod	Sales, Order info & Progress, Fitting Issue, Waranty & Post Delivery
+Label 500 E-Bike Tickets	Group 2	Prod
+
+Deploy model as API 		Group 2	Prod	http://help.labelf.ai/en/collections/3061521-api-documentation
+
+Write script to shoot 
+inferences at API & 
+test load capacity		Group 2	Prod	http://help.labelf.ai/en/collections/3061521-api-documentation

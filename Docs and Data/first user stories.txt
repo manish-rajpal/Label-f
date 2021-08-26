@@ -1,0 +1,25 @@
+Basic User story
+as a user I would like to .... upload a dataset...
+
+1. As a new user ; I want to register on the link  so that I can login to the application
+   As a 		new user
+   I want to 		register on applink(https://app.labelf.ai/register/it-hogskolan)
+   So I can 		login to the app
+
+2. As a registereed user , I want to enter my login credentials , so that I can use the application
+2. As a 		registered user
+   I want to 		login to the app
+   So I can		access it
+
+3. As a logged in (valid)user , I want to click on (add a dataset)  , so that I can upload my Ebike dataset
+
+4. As a valid user when I  upload a dataset then I get option to setup  my own labels
+
+
+
+
+
+User Stories(acceptance criteria)
+1.  Given 
+    When
+    Then
