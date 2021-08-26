@@ -1,17 +1,7 @@
 pipeline {
    agent any
   stages {
-    stage('Checkout') {
-       steps {
-               git 'https://github.com/manish-rajpal/Team2Labelf'
-          }
-     }
-stage ('Build') {
-              steps {
-                     bat "mvn compile"
-                }
-            }
- stage('Robot') {
+    stage('Robot') {
             steps {
                 bat 'robot --variable BROWSER:headlesschrome -d Results Tests'
             }
