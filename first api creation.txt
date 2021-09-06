@@ -1,0 +1,17 @@
+Model name: E Bike Dataset-model
+Model id: 190
+Deployed at: 2021-08-27 13:05
+How do i call the API?
+curl -X POST "https://api.app.labelf.ai/v1/models/190/inference" -H "accept: application/json" -H "Authorization: Bearer <workspace_49_96ce3c73c0@apiuser.labelf.ai>" -H "Content-Type: application/json" -d '{"texts":["my first inference"]}'
+
+
+Active workspace client credentials
+workspace_49_96ce3c73c0@apiuser.labelf.ai
+
+
+cURL
+curl -k -X POST -H "Content-Type: application/x-www-form-urlencoded" -u 'KNjzs6qdI8fxF1RCS8j-zlCHUXCBqpN6Zt77AG4X0Nw:Z1iXBC2bvn0gGjYLtbelocdMbHq3zAOU7VVpwmKrntBT7TMFnvnyqm8Axz0Olo0-EXInrEzA4rTPFIhWhWeIZQ' -d grant_type=client_credentials https://auth.app.labelf.ai/oauth2/token
+Client id
+KNjzs6qdI8fxF1RCS8j-zlCHUXCBqpN6Zt77AG4X0Nw
+Client secret
+Z1iXBC2bvn0gGjYLtbelocdMbHq3zAOU7VVpwmKrntBT7TMFnvnyqm8Axz0Olo0-EXInrEzA4rTPFIhWhWeIZQ
